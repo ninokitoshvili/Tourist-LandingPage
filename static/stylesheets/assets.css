@@ -1,0 +1,31 @@
+.wavy {
+	position: relative;
+	width: 46px;
+	height: 16px;
+	/* background:gray; */
+	overflow: hidden;
+}
+
+.wavy::before {
+	content: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+	position: absolute;
+	top: -20px;
+	left: 0;
+	font-size: 2rem;
+	color: transparent;
+	text-decoration-style: wavy;
+	text-decoration-color: #4b54fa;
+
+	text-decoration-line: underline;
+
+	animation: animate 2s linear infinite;
+}
+
+@keyframes animate {
+	0% {
+		transform: translateX(-1px);
+	}
+	100% {
+		transform: translateX(-55px);
+	}
+}
