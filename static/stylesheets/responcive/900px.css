@@ -1,0 +1,15 @@
+@media screen and (max-width: 900px) {
+	p {
+		color: blue;
+	}
+	.ourservice-main,
+	.ourservice-title {
+		flex-direction: column;
+		align-items: center;
+		display: flex;
+		justify-content: center;
+	}
+	.ourservice-title p {
+		display: none;
+	}
+}

@@ -1,0 +1,12 @@
+@media screen and (max-width: 1024px) {
+	p {
+		color: red;
+	}
+	.ourservice-container div {
+		min-width: 300px;
+	}
+	.ourservice-container {
+		height: auto;
+		justify-content: space-around;
+	}
+}
