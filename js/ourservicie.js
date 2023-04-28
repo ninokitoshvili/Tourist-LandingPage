@@ -36,10 +36,11 @@ for (let i = 0; i < images.length; i++) {
 
 	img.src = images[i];
 	img.alt = titles[i];
-	img.className = "inner zoomD";
+	// img.className = "inner ";
 
 	div.id = "img" + i;
-	div.className = "flex-btw  imgmedia block bg-hover-aqua";
+	// div.className = "flex-btw  imgmedia block bg-hover-aqua";
+	div.className = "flex-btw  imgmedia  bg-hover-aqua";
 
 	h4.appendChild(title);
 	p.appendChild(information);
@@ -47,6 +48,7 @@ for (let i = 0; i < images.length; i++) {
 	div.appendChild(h4);
 	div.appendChild(p);
 	container.appendChild(div);
+
 	div.onclick = () => {
 		console.log(i);
 		let lightbox = document.getElementById("lightbox");
@@ -68,5 +70,6 @@ for (let i = 0; i < images.length; i++) {
 		lightbox.appendChild(lightboxContainer);
 		lightbox.className = "show cursor";
 	};
+
 	lightbox.onclick = () => (lightbox.className = "");
 }
