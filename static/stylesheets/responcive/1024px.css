@@ -2,6 +2,13 @@
 	p {
 		color: red;
 	}
+
+	/* API */
+	.divCointainer {
+		width: calc(100% - 100px);
+	}
+
+	/* our service */
 	.ourservice-container div {
 		min-width: 300px;
 	}

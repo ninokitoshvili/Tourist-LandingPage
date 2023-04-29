@@ -1,0 +1,30 @@
+.divCointainer {
+	width: 500px;
+	height: auto;
+	margin: 10px;
+	border: 3px solid gray;
+}
+.divCointainer img {
+	width: 100%;
+}
+#information {
+	height: 100%;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	display: flex;
+}
+.mainpage {
+	text-transform: uppercase;
+	font-weight: bold;
+	align-items: center;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin: 50px;
+}
+.mainpage a {
+	cursor: pointer;
+	color: black;
+	text-decoration: none;
+}
