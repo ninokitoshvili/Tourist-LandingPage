@@ -4,6 +4,10 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
 		<link rel="stylesheet" href="./static/stylesheets/style.css" />
 		<title>Tourist Landing Page</title>
 	</head>
@@ -13,16 +17,19 @@
 				<div class="logo">
 					<img src="./static/images/header/Tourism.png" alt="header logo" />
 				</div>
-				<div class="nav_menu">
-					<ul class="flex-btw">
-						<li><a href="#Home">Home</a></li>
-						<li><a href="#AboutUs">About us</a></li>
-						<li><a href="#OurServices">our services</a></li>
-						<li>
-							<a href="#TourPackage">tour package</a>
-						</li>
+				<div class="nav_menu" id="nav_menu">
+					<ul class="flex-btw list_container">
+						<li><a href="#Home" class="menuItem">Home</a></li>
+						<li><a href="#AboutUs" class="menuItem">About us</a></li>
+						<li><a href="#OurServices" class="menuItem">our services</a></li>
+						<li><a href="#TourPackage" class="menuItem">tour package</a></li>
+						<li><a href="./API/api.html" class="menuItem">api</a></li>
 					</ul>
 				</div>
+				<button class="hamburger" id="hamburger">
+					<i class="fa fa-navicon block" id="burger" class="menuIcon"></i>
+					<i class="fa fa-close none" id="close" class="menuIcon"></i>
+				</button>
 			</nav>
 			<banner>dssad</banner>
 		</header>
@@ -43,5 +50,6 @@
 			</div>
 		</div>
 		<script src="js/ourservicie.js"></script>
+		<script src="js/nav.js"></script>
 	</body>
 </html>

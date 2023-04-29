@@ -82,7 +82,7 @@
 	background: green;
 }
 /* (A6) TOGGLE VISIBILITY */
-#lightbox.show {
+#lightbox.shows {
 	visibility: visible;
 	opacity: 1;
 }

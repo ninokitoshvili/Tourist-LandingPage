@@ -30,6 +30,9 @@ nav {
 	font-family: raleway;
 	font-weight: 600;
 }
+.hamburger {
+	display: none;
+}
 banner {
 	height: auto;
 	background-color: gold;

@@ -68,7 +68,7 @@ for (let i = 0; i < images.length; i++) {
 		lightboxContainer.appendChild(h4Show);
 		lightboxContainer.appendChild(pShow);
 		lightbox.appendChild(lightboxContainer);
-		lightbox.className = "show cursor";
+		lightbox.className = "shows cursor";
 	};
 
 	lightbox.onclick = () => (lightbox.className = "");

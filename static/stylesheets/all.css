@@ -57,6 +57,10 @@ nav a,
 button {
 	min-height: 48px;
 	min-width: 48px;
+	text-decoration: none;
+	overflow: hidden;
+	cursor: pointer;
+	border: none;
 }
 
 /* h1{
@@ -99,7 +103,7 @@ p {
 	margin: auto;
 	background-color: aqua;
 
-	padding: 50px 0px;
+	padding: 50px 10px;
 }
 
 /* class whch is used often */
@@ -110,4 +114,11 @@ p {
 
 .cursor {
 	cursor: pointer;
+}
+
+.none {
+	display: none;
+}
+.show {
+	display: block;
 }
