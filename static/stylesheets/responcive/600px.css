@@ -16,4 +16,12 @@
 	#lightbox h4 {
 		font-size: 1.2em;
 	}
+
+	.acchive_container {
+		width: 100%;
+	}
+	.acchive_container .flex-btw div {
+		max-width: 100px;
+		text-align: center;
+	}
 }

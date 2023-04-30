@@ -21,6 +21,11 @@
 	animation: animate 2s linear infinite;
 }
 
+.wavywhite::before {
+	text-decoration-color: #fff;
+	top: -22px;
+}
+
 @keyframes animate {
 	0% {
 		transform: translateX(-1px);

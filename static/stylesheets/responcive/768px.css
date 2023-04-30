@@ -63,4 +63,17 @@
 	.showMenu {
 		transform: translateY(100%);
 	} */
+	/* .outservice,
+	.videoArchieve_container {
+		height: auto !important;
+	} */
+	/* video + achivement */
+	.video_main_container,
+	.acchive_container {
+		width: calc(100% - 100px);
+		align-self: center;
+	}
+	.acchive_container {
+		font-size: 0.7em;
+	}
 }

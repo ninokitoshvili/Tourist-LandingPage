@@ -9,6 +9,9 @@
 	}
 
 	/* our service */
+	.ourservice {
+		height: auto;
+	}
 	.ourservice-container div {
 		min-width: 300px;
 	}

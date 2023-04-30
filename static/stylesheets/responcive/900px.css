@@ -12,4 +12,7 @@
 	.ourservice-title p {
 		display: none;
 	}
+	.ourservice {
+		height: auto;
+	}
 }
