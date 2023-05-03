@@ -53,6 +53,7 @@
 	text-transform: capitalize;
 	font-weight: 600;
 	font-family: Raleway;
+	padding: 0 10px 0 5px;
 }
 
 .package_text_container {
@@ -70,6 +71,7 @@ cont {
 .package_text_container h4 {
 	font-size: 1em;
 	color: #4b54fa;
+	text-transform: capitalize;
 }
 .package_container .package_container_item:first-child .package_img_container {
 	background-image: url(../images/packageIMG/tom-grimbert.png);
@@ -90,7 +92,7 @@ cont {
 	background-position: center;
 
 	background-image: linear-gradient(
-			to bottom,
+			to top,
 			rgba(42, 245, 152, 0.73),
 			rgba(8, 174, 234, 0.52)
 		),
@@ -98,4 +100,59 @@ cont {
 
 	background-size: cover;
 	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.sale_main_container {
+	max-width: 580px;
+	height: 200px;
+}
+
+.sale_title {
+	align-items: center;
+	text-align: center;
+}
+
+.sale_title h2 {
+	font-size: 2em;
+	text-transform: capitalize;
+	line-height: 37px;
+	font-family: Raleway;
+}
+.sale_title span {
+	font-size: 1em;
+	font-weight: 500;
+	line-height: 37px;
+	font-family: Raleway;
+}
+.sale_email {
+	max-width: 580px;
+}
+.sale_email form {
+	display: flex;
+	justify-content: center;
+	background-color: none;
+}
+.sale_email input {
+	height: 50px;
+	border: 2px solid #ffffff;
+	border-radius: 25px;
+
+	margin: 10px;
+}
+
+.sale_email input[type="mail"] {
+	width: 395px;
+
+	background: none;
+	padding: 20px;
+}
+
+.sale_email input[type="submit"] {
+	width: 155px;
+	text-transform: uppercase;
+
+	color: #08aeea;
 }

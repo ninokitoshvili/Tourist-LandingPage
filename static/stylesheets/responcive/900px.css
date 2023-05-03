@@ -15,4 +15,23 @@
 	.ourservice {
 		height: auto;
 	}
+	.popular_container_main,
+	.popular_container {
+		height: auto;
+	}
+	.package_container {
+		display: flex;
+		flex-flow: wrap;
+		height: auto;
+		width: calc(100% - 80px);
+		margin: auto;
+		justify-content: center;
+	}
+	.popular_container_main .package_header {
+		height: auto;
+		margin-bottom: 20px;
+	}
+	.package_container_item {
+		margin: 10px;
+	}
 }
