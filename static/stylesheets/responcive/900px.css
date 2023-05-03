@@ -25,7 +25,9 @@
 		height: auto;
 		width: calc(100% - 80px);
 		margin: auto;
-		justify-content: center;
+		/* justify-content: center; */
+
+		justify-content: space-around;
 	}
 	.popular_container_main .package_header {
 		height: auto;
@@ -33,5 +35,8 @@
 	}
 	.package_container_item {
 		margin: 10px;
+	}
+	.traveler_container_item {
+		margin-top: 20px;
 	}
 }

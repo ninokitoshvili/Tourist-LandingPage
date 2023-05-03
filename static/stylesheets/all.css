@@ -113,6 +113,7 @@ p {
 	justify-content: space-between;
 }
 .flex-clm {
+	display: flex;
 	flex-direction: column;
 }
 

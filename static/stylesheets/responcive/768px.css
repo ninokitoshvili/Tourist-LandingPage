@@ -89,4 +89,7 @@
 	.sale_email input[type="submit"] {
 		width: 100px;
 	}
+	.traveler_container_item {
+		max-width: 280px;
+	}
 }
