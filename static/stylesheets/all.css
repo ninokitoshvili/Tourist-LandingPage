@@ -122,10 +122,10 @@ p {
 }
 
 .main-title {
-	height: 75px;
+	height: 100px;
 	width: auto;
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
 	flex-direction: column;
 }
