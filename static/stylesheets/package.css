@@ -156,3 +156,13 @@ cont {
 
 	color: #08aeea;
 }
+
+.map_conainer {
+	width: 100%;
+	height: 435px;
+}
+
+.map_conainer iframe {
+	height: 100%;
+	width: 100%;
+}
