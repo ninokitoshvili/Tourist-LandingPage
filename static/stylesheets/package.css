@@ -1,20 +1,30 @@
 .popular_wrapper {
 	/* width: 100px;
 	background: black; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .popular_container {
-	height: 630px;
+	min-height: 630px;
 	width: 100%;
 	display: flex;
+	margin-bottom: 20px;
+	/* width: calc(100% - 200px); */
 }
 
 .popular_container_main {
-	height: 490px;
-	max-width: 863px;
+	min-height: 490px;
+	/* max-width: 863px; */
 	width: 100%;
+	width: calc(100% - 200px);
 	/* background: green; */
 	margin: auto;
+}
+.popular_container_main_wd {
+	width: calc(100% - 300px);
 }
 
 .popular_container .popular_container_main .main-title-container {

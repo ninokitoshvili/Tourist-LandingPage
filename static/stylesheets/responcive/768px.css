@@ -92,4 +92,7 @@
 	.traveler_container_item {
 		max-width: 280px;
 	}
+	.footer_subscribe {
+		display: none;
+	}
 }

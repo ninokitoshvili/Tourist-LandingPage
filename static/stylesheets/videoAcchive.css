@@ -19,6 +19,7 @@
 	background-color: #696969;
 	display: flex;
 	justify-content: center;
+	background-size: cover;
 	background-image: linear-gradient(
 			rgba(105, 105, 105, 0.9),
 			rgba(105, 105, 105, 0.9)

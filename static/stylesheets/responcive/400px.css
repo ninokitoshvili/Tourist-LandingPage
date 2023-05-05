@@ -22,4 +22,10 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.big_footer {
+		display: none;
+	}
+	footer {
+		height: 60px;
+	}
 }
