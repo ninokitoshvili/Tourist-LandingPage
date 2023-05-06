@@ -1,10 +1,4 @@
 @media screen and (max-width: 600px) {
-	p {
-		color: green;
-	}
-	.ourservice-main,
-	.ourservice-title {
-	}
 	.ourservice-container div {
 		min-width: 300px;
 		width: calc(100% - 140px);
@@ -16,7 +10,10 @@
 	#lightbox h4 {
 		font-size: 1.2em;
 	}
-
+	.sale_email input[type="email"] {
+		width: auto;
+		max-width: 395px !important;
+	}
 	.acchive_container {
 		width: 100%;
 	}

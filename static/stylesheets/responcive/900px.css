@@ -1,7 +1,4 @@
 @media screen and (max-width: 900px) {
-	p {
-		color: blue;
-	}
 	.ourservice-main,
 	.ourservice-title {
 		flex-direction: column;
@@ -25,8 +22,6 @@
 		height: auto;
 		width: calc(100% - 80px);
 		margin: auto;
-		/* justify-content: center; */
-
 		justify-content: space-around;
 	}
 	.popular_container_main .package_header {
@@ -38,5 +33,9 @@
 	}
 	.traveler_container_item {
 		margin-top: 20px;
+	}
+	.footer_subscribe input {
+		width: auto;
+		max-width: 275px;
 	}
 }

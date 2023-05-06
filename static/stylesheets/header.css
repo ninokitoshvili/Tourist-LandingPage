@@ -1,14 +1,11 @@
 header {
 	height: 650px;
 	width: 100%;
-	/* background-color: blue; */
 	margin-bottom: 30px;
-	/* border-bottom: solid 1px #707070; */
 }
 
 nav {
 	height: 80px;
-	background: green;
 	align-items: center;
 }
 .logo {
@@ -20,14 +17,11 @@ nav {
 	max-width: 500px;
 	height: 21px;
 }
-.nav_menu ul {
-	/* display: flex;
-	justify-content: space-between; */
-}
+
 .nav_menu ul li a {
 	text-transform: uppercase;
-	color: #fff;
-	font-family: raleway;
+	color: #303134;
+	font-family: Raleway;
 	font-weight: 600;
 }
 .hamburger {
@@ -35,5 +29,4 @@ nav {
 }
 banner {
 	height: auto;
-	background-color: gold;
 }

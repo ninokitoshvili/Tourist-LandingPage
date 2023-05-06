@@ -1,6 +1,4 @@
 .popular_wrapper {
-	/* width: 100px;
-	background: black; */
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -12,15 +10,12 @@
 	width: 100%;
 	display: flex;
 	margin-bottom: 20px;
-	/* width: calc(100% - 200px); */
 }
 
 .popular_container_main {
 	min-height: 490px;
-	/* max-width: 863px; */
 	width: 100%;
 	width: calc(100% - 200px);
-	/* background: green; */
 	margin: auto;
 }
 .popular_container_main_wd {
@@ -36,9 +31,6 @@
 
 .popular_container_main .package_header {
 	height: 100%;
-}
-
-.package_container {
 }
 
 .package_container_item {
@@ -153,11 +145,15 @@ cont {
 	margin: 10px;
 }
 
-.sale_email input[type="mail"] {
+.sale_email input[type="email"] {
 	width: 395px;
-
+	color: #fff;
 	background: none;
 	padding: 20px;
+}
+.sale_email input[type="email"]::placeholder {
+	color: #fff;
+	font-weight: 900;
 }
 
 .sale_email input[type="submit"] {

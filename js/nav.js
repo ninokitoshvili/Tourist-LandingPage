@@ -13,7 +13,6 @@ function toggleMenu() {
 		closeIcon.classList.remove("block");
 		burger.classList.remove("none");
 		closeIcon.classList.add("none");
-
 		nav_menu.style.display = "none";
 	}
 }

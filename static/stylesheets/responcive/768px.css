@@ -12,10 +12,6 @@
 	}
 
 	.menuItem {
-		/* display: block;
-		margin: 2rem 4rem;
-		font-size: 1.8rem;
-		color: white; */
 		text-decoration: none;
 		margin: 5px;
 	}
@@ -28,7 +24,6 @@
 	}
 
 	.hamburger {
-		/* position: fixed; */
 		z-index: 100;
 		top: 1rem;
 		right: 1rem;
@@ -43,31 +38,14 @@
 		width: 180px;
 		height: 200px;
 		padding: 10px;
-
-		/* animation-duration: 4s; */
-		/* transform: translateY(-100%); */
-		/* transition: transform 0.2s; */
 		top: 0;
-		/* left: 0; */
 		right: 0;
-		/* bottom: 0; */
 		z-index: 99;
 		background: black;
 		color: white;
-		/* list-style: none; */
 		padding-top: 4rem;
-		/* 
-		animation-direction: normal; */
 	}
-	/* 
-	.showMenu {
-		transform: translateY(100%);
-	} */
-	/* .outservice,
-	.videoArchieve_container {
-		height: auto !important;
-	} */
-	/* video + achivement */
+
 	.video_main_container,
 	.acchive_container {
 		width: calc(100% - 100px);

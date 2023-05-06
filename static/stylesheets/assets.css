@@ -2,7 +2,6 @@
 	position: relative;
 	width: 46px;
 	height: 16px;
-	/* background:gray; */
 	overflow: hidden;
 }
 
@@ -33,4 +32,24 @@
 	100% {
 		transform: translateX(-55px);
 	}
+}
+
+#myBtn {
+	font-family: bold;
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 10px;
+	z-index: 99;
+	border: 1px solid #4b54fa;
+	border-radius: 5px;
+	outline: none;
+	cursor: pointer;
+	padding: 15px;
+	color: #1a1818;
+	background: #4b54fa;
+}
+
+#myBtn i {
+	color: #fff;
 }
